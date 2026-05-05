@@ -1,0 +1,8 @@
+‎
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,5 @@
+a=int(input("enter the rows"))
+for i in range (a):
+    for j in range(i+1):
+        print(" * ",end=" ")
+    print()
