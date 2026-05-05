@@ -1,0 +1,13 @@
+a=int(input("enter the num 1 :"))
+b=int(input("enter the num 2 :"))
+
+x=a
+y=b
+while(b!=0):
+    rem=a%b
+    a=b
+    b=rem
+gcd=a
+lcm=(x*y)//gcd
+
+print("lcm:",lcm)
