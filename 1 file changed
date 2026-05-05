@@ -1,0 +1,12 @@
+e‎
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,9 @@
+Marks = int(input("enter the marks: "))
+if (Marks>90):
+    print("A grade")
+elif(Marks>75 ):
+    print("B grade")
+elif(Marks>50):
+    print("C grade")
+else :
+    print("fail"
